@@ -21,7 +21,7 @@ st.set_page_config(
 # Step 2: Load Dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv(r'C:\Users\Soumyadip Dey\Desktop\Performance\Book1.csv')
+    return pd.read_csv('Book1.csv')
 data = load_data()
 
 # Step 3: Preprocessing
